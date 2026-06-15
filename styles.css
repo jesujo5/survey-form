@@ -1,0 +1,34 @@
+body{
+
+    background-image: url('https://t3.ftcdn.net/jpg/02/13/56/78/360_F_213567841_SiyyM6H4y067caRy58iLulWazeezPaui.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: rgb(192, 211, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main{
+    border: 2px solid rgb(135, 218, 237) ;
+    border-radius: 10px;
+
+    padding: 10px;
+    background-color: rgb(16, 55, 104);
+    scroll-behavior: static;
+  
+}
+#title{
+    text-align: center;
+}
+.description {
+   text-align: center;
+    
+}
+.form{
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+
+}
