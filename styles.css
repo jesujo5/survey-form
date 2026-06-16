@@ -5,7 +5,7 @@ body{
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    color: rgb(192, 211, 224);
+    color: rgb(252, 252, 252);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,13 +15,13 @@ body{
 .main{
     border: 2px solid rgb(135, 218, 237) ;
     border-radius: 10px;
-    padding: 10px;
+    padding: 30px;
     background-color: rgb(16, 55, 104);
-    scroll-behavior: static;
-  
+    scroll-behavior: static;   
 }
 #title{
     text-align: center;
+    color: aqua;
 }
 .description {
    text-align: center;
@@ -33,4 +33,19 @@ body{
     padding:20px;
     display: flex;
     flex-direction:column;
+}
+.inputbox{
+    background-color:  rgb(24, 74, 135);
+    border-radius: 5px;
+}
+.questionbox {
+    border-radius: 10px;
+}
+.textbox {
+    background-color:  rgb(24, 74, 135);
+    border-radius: 5px;
+}
+.submitbutton{
+    background-color: rgb(0, 157, 255);
+    border-radius: 5px;
 }
