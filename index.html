@@ -12,11 +12,17 @@
         <p class="description">Help us improve the open-source engineering ecosystem by sharing your workspace preferences.</p>
         <form class="form">
             <label>Full Name</label>
-            <input  class="inputbox" type="text" placeholder="e.g., John Jesu " autocomplete="on" required autofocus><br>
+            <input  class="inputbox" type="text" placeholder="e.g., John Jesu " autocomplete="on" required autofocus>
+            <br>
+            
             <label>Work Email</label>
-            <input class="inputbox" type="email" placeholder="e.g., johnjesu@gmail.com" autocomplete="on" required ><br>
+            <input class="inputbox" type="email" placeholder="e.g., johnjesu@gmail.com" autocomplete="on" required >
+            <br>
+
             <label>Years of Experience (0 - 50)</label>
-            <input class="inputbox" type="number" placeholder="e.g., 19" min="0" max="50"  required ><br>
+            <input class="inputbox" type="number" placeholder="e.g., 19" min="0" max="50"  required >
+            <br>
+
             <label >Primary Development Role</label>
                 <select class="inputbox" id="dropdown" name="role" required>
                     <option  value="" disabled selected>Select your current title</option>
@@ -25,29 +31,55 @@
                     <option value="fullstack">Fullstack Engineer</option>
                     <option value="cybersecurity">Cyber Security</option>
                     <option value="cloud">Cloud Engineer</option>
-                </select><br>
+                </select>
+            <br>
+
             <fieldset class="questionbox">
-                <legend>Preferred Working Environment:</legend>
-                <p> <input type="radio"><label>Fully Remote</label> </p>
-                <P> <input type="radio"><label>Hybrid Sehedule</label> </P>
-                <p> <input type="radio"><label>On-Site/Office</label> </p>
+            <legend>Preferred Working Environment: </legend>
+                    <p>
+                        <input type="radio" name="work_style" value="remote" checked>
+                        <label class="radio-checkbox-label">Fully Remote</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="work_style" value="hybrid">
+                        <label class="radio-checkbox-label">Hybrid Schedule</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="work_style" value="office">
+                        <label class="radio-checkbox-label">On-site / Office</label>
+                    </p>
             </fieldset>
             <br>
+
             <fieldset class="questionbox">
                 <legend>Core Technologies Used Daily</legend>
-                <p> <input type="checkbox"><label>JavaScript / TypeScript</label> </p>
-                <p> <input type="checkbox"><label>Python</label> </p>
-                <p> <input type="checkbox"><label>Python</label> </p>
-                <p> <input type="checkbox"><label>Docker / Kubernetes</label> </p>
+                <p>
+                    <input type="checkbox">
+                    <label>JavaScript / TypeScript</label>
+                </p>
+                <p>
+                    <input type="checkbox">
+                    <label>Python</label>
+                </p>
+                <p>
+                    <input type="checkbox">
+                    <label>Python</label>
+                </p>
+                <p>
+                    <input type="checkbox">
+                    <label>Docker / Kubernetes</label>
+                </p>
             </fieldset>
             <br>
+
             <fieldset class="questionbox">
                 <legend>What is your biggest workflow bottleneck?</legend>
                 <textarea class="textbox" cols="50" rows="10" placeholder="Tell us about your local build  times, tooling limits, or meeting... "></textarea>
-
             </fieldset>
             <br>
-             <button   class="submitbutton" type="submit" id="submit">Submit Feedback</button>
+
+            <button id="submitbutton" type="submit" id="submit">Submit Feedback</button>
+            
         </form>
         <br>
     </main>

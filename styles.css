@@ -1,34 +1,37 @@
 body{
-
-    background-image: url('https://t3.ftcdn.net/jpg/02/13/56/78/360_F_213567841_SiyyM6H4y067caRy58iLulWazeezPaui.jpg');
+    background-color: rgba(244, 7, 7, 0.049);
+    background-image: url('https://img.freepik.com/premium-photo/dark-blue-elegant-future-technology-background-5_769134-495.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    color: rgb(252, 252, 252);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #cbd5e1;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 40px;
-    
 }
 .main{
-    border: 2px solid rgb(135, 218, 237) ;
+    border: 2px solid #385e94;
     border-radius: 10px;
     padding: 30px;
-    background-color: rgb(16, 55, 104);
+    width: 100%;
+    max-width: 640px;
+    background-color:#1e293b;
+    background-color: transparent;
     scroll-behavior: static;   
 }
 #title{
     text-align: center;
-    color: aqua;
+    color: #38bdf8;
 }
 .description {
-   text-align: center;
-    
+   text-align: center;   
+   border-color: #385e94;
 }
 .form{
-    border: 2px solid whitesmoke;
+    border: 2px solid #518ee4;
     border-radius: 10px;
     padding:20px;
     display: flex;
@@ -39,13 +42,23 @@ body{
     border-radius: 5px;
 }
 .questionbox {
+    border-color:  #518ee4;
     border-radius: 10px;
 }
 .textbox {
     background-color:  rgb(24, 74, 135);
     border-radius: 5px;
 }
-.submitbutton{
-    background-color: rgb(0, 157, 255);
-    border-radius: 5px;
+#submitbutton{
+    margin-top: 10px;
+    padding: 14px 20px;
+    background-color: #38bdf8;
+    color: #0f172a;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+#submitbutton:hover{
+    background-color: #0ea5e9;
 }
