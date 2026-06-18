@@ -6,7 +6,7 @@ body{
     background-position: center;
     background-size: cover;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: #cbd5e1;
+    color: #D6E6F3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,7 +18,7 @@ body{
     padding: 30px;
     width: 100%;
     max-width: 640px;
-    background-color:#1e293b;
+    background-color:#000926;
     background-color: transparent;
     scroll-behavior: static;   
 }
@@ -31,22 +31,22 @@ body{
    border-color: #385e94;
 }
 .form{
-    border: 2px solid #518ee4;
+    border: 2px solid #0F52BA;
     border-radius: 10px;
     padding:20px;
     display: flex;
     flex-direction:column;
 }
 .inputbox{
-    background-color:  rgb(24, 74, 135);
+    background-color:#A6C5D7;
     border-radius: 5px;
 }
 .questionbox {
-    border-color:  #518ee4;
+    border-color:  #0266fd;
     border-radius: 10px;
 }
 .textbox {
-    background-color:  rgb(24, 74, 135);
+    background-color:#A6C5D7;
     border-radius: 5px;
 }
 #submitbutton{
