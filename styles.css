@@ -1,6 +1,6 @@
 body{
-    background-color: rgba(244, 7, 7, 0.049);
-    background-image: url('https://img.freepik.com/premium-photo/dark-blue-elegant-future-technology-background-5_769134-495.jpg');
+    background-image: linear-gradient( #000926, #1c2f4c);
+    /*background-image: url('https://img.freepik.com/premium-photo/dark-blue-elegant-future-technology-background-5_769134-495.jpg');*/
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
